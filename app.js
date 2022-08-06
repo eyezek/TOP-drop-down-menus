@@ -13,7 +13,3 @@ let onHoverMenu = document.getElementById("onhovermenu");
 onHoverIcon.addEventListener("mouseover", function () {
   onHoverMenu.style.visibility = "visible";
 });
-
-onHoverIcon.addEventListener("mouseout", function () {
-  onHoverMenu.style.visibility = "hidden";
-});
