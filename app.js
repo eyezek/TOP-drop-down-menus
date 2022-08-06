@@ -2,7 +2,7 @@ let onClickIcon = document.getElementById("onclickicon");
 
 let onClickMenu = document.getElementById("onclickmenu");
 
-onClickIcon.addEventListener(onclick, function () {
+onClickIcon.addEventListener("click", function () {
   onClickMenu.style.visibility = "visible";
 });
 
@@ -10,6 +10,10 @@ let onHoverIcon = document.getElementById("onhovericon");
 
 let onHoverMenu = document.getElementById("onhovermenu");
 
-onHoverIcon.addEventListener(onmouseover, function () {
+onHoverIcon.addEventListener("mouseover", function () {
   onHoverMenu.style.visibility = "visible";
+});
+
+onHoverIcon.addEventListener("mouseout", function () {
+  onHoverMenu.style.visibility = "hidden";
 });
